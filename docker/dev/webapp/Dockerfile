@@ -1,6 +1,6 @@
 FROM node:18.4-alpine as node
 FROM nginx:1.18-alpine as nginx
-FROM php:8.0-fpm-alpine
+FROM php:8.1-fpm-alpine
 # SHELL ["/bin/ash", "-oeux", "pipefail", "-c"]
 
 # timezone environment
